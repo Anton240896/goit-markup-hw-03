@@ -125,6 +125,7 @@ address {
 .list-item {
     display: flex;
     gap: 40px;
+
 }
 
 /*mail*/
@@ -193,6 +194,20 @@ address {
 }
 
 /*section 2*/
+.section_main_page {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-img {
+    display: flex;
+    gap: 24px;
+
+}
+
+.list-strategy {
+    width: calc((100% - 72px) / 4);
+}
 
 
 /*h3_main_page*/
@@ -202,6 +217,8 @@ address {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
 }
 
 
