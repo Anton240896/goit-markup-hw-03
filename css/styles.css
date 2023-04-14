@@ -122,11 +122,7 @@ address {
     font-style: normal;
 }
 
-.list-item {
-    display: flex;
-    gap: 40px;
 
-}
 
 /*mail*/
 .address {
@@ -134,6 +130,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .address:hover {
@@ -199,6 +196,7 @@ address {
     padding-bottom: 120px;
 }
 
+/*li-section 2*/
 .list-img {
     display: flex;
     gap: 24px;
