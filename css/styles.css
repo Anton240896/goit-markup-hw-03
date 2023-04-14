@@ -168,7 +168,7 @@ address {
 .btn_hero {
     font-family: "Roboto", sans-serif;
     display: block;
-    min-height: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     background-color: var(--header_studio-color-4d5ae5);
