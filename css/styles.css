@@ -148,27 +148,39 @@ address {
 /*section #1*/
 .section_main_page_title {
     background-color: var(--span_studio-color-2e2f42);
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 
 /*h1*/
-.hero-title {
+.h-section-first {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
+    max-width: 496px;
+
 }
 
 /*button(Main page)*/
 .btn_hero {
     font-family: "Roboto", sans-serif;
+    display: block;
+    min-height: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--header_studio-color-4d5ae5);
+    border-radius: 4px;
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #ffffff;
-    background-color: #4D5AE5;
+
 }
 
 
