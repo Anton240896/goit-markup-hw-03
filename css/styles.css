@@ -40,6 +40,7 @@ address {
     font-style: normal;
 }
 
+/*webstudio*/
 .logo_studio {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -48,6 +49,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 /*studio*/
@@ -70,9 +72,17 @@ address {
 }
 
 /*container*/
+
+.header-main-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
 .container {
     width: 1158px;
-    padding: 0.15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .nav-header {
@@ -80,6 +90,7 @@ address {
     align-items: center;
 }
 
+/*menu-list*/
 .header_studio {
     font-weight: 500;
     font-size: 16px;
@@ -87,6 +98,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
 .header_studio:hover {
@@ -97,10 +111,20 @@ address {
     color: #404bbf;
 }
 
+/*menu-list*/
+.menu-list {
+    display: flex;
+    gap: 40px;
+}
+
 /*address*/
 .address_contacts {
     font-style: normal;
+}
 
+.list-item {
+    display: flex;
+    gap: 40px;
 }
 
 /*mail*/
