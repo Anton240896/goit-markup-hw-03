@@ -28,6 +28,13 @@ body {
     list-style: none;
 }
 
+!============================================= ! MAIN-PAGE !============================================= !
+
+/*header main-page*/
+.header-main-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 /*address*/
 address {
     font-style: normal;
@@ -45,7 +52,6 @@ address {
 
 /*studio*/
 
-/*footer-studio*/
 .studio {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -57,6 +63,22 @@ address {
 }
 
 /*header*/
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+/*container*/
+.container {
+    width: 1158px;
+    padding: 0.15px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+}
 
 .header_studio {
     font-weight: 500;
@@ -204,8 +226,7 @@ address {
 
 /*2 page*/
 
-/*Portfolio*/
-.studio_portfolio {
+!============================================= ! PORTFOLIO !============================================= ! .studio_portfolio {
     color: #FFFFFF;
 }
 
