@@ -41,6 +41,12 @@ img {
 }
 
 /*address*/
+.address_contacts {
+    display: flex;
+    gap: 40px;
+}
+
+
 address {
     font-style: normal;
 }
