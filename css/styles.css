@@ -34,7 +34,7 @@ img {
     display: block;
 }
 
-
+/*********** HEADER ***********/
 /*header main-page*/
 .header-main-page {
     border-bottom: 1px solid #e7e9fc;
@@ -92,9 +92,6 @@ address {
     text-transform: uppercase;
 }
 
-/*header*/
-
-
 .header-main-page {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -145,8 +142,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    gap: 45px;
+
 }
 
 .address:hover {
@@ -157,9 +153,13 @@ address {
     color: #404bbf;
 }
 
+.contacts {
+    margin-left: 0;
+}
 
 
-/*section #1*/
+
+/************ SECTION 1 ************/
 .section_main_page_title {
     background-color: var(--span_studio-color-2e2f42);
     padding-top: 188px;
@@ -206,7 +206,7 @@ address {
     background-color: #404bbf;
 }
 
-/*section 2*/
+/********** SECTION 2 **********/
 .section_main_page {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -266,7 +266,7 @@ address {
 }
 
 
-/*section #4*/
+/************* SECTION 4 ************/
 .section_main_page {}
 
 .section_team {
@@ -274,7 +274,7 @@ address {
 }
 
 
-/*footer*/
+/************* FOOTER *************/
 
 .footer_studio {
     background-color: var(--span_studio-color-2e2f42);
@@ -293,7 +293,7 @@ address {
 
 /*2 page*/
 
-/************************** PORTFOLIO **********************************/
+/************************** PORTFOLIO ***************************/
 .studio_portfolio {
     color: #FFFFFF;
 }
