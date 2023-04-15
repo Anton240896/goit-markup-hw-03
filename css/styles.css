@@ -1,4 +1,6 @@
-!============================================= ! MAIN-PAGE !============================================= !:root {
+/************************** MAIN-PAGE ***************************************/
+
+:root {
     --background-color-main_page-ffffff: #FFFFFF;
     --header_studio-color-4d5ae5: #4d5ae5;
     --span_studio-color-2e2f42: #2e2f42;
@@ -26,6 +28,10 @@ body {
 /*list*/
 .list {
     list-style: none;
+}
+
+img {
+    display: block;
 }
 
 
@@ -163,7 +169,7 @@ address {
 }
 
 /*button(Main page)*/
-.btn_hero {
+.btn_main_page {
     font-family: "Roboto", sans-serif;
     display: block;
     min-width: 169px;
@@ -277,7 +283,8 @@ address {
 
 /*2 page*/
 
-!============================================= ! PORTFOLIO !============================================= ! .studio_portfolio {
+/************************** PORTFOLIO **********************************/
+.studio_portfolio {
     color: #FFFFFF;
 }
 
