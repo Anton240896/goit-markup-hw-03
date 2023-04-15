@@ -40,11 +40,28 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+/*container*/
+
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
 /*address*/
 .address_contacts {
     display: flex;
     gap: 40px;
 }
+
 
 
 address {
@@ -77,24 +94,11 @@ address {
 
 /*header*/
 
-.container-header {
-    display: flex;
-    align-items: center;
-}
-
-/*container*/
 
 .header-main-page {
     border-bottom: 1px solid #e7e9fc;
 }
 
-
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-
-}
 
 .nav-header {
     display: flex;
