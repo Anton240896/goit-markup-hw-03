@@ -1,4 +1,4 @@
-:root {
+!============================================= ! MAIN-PAGE !============================================= !:root {
     --background-color-main_page-ffffff: #FFFFFF;
     --header_studio-color-4d5ae5: #4d5ae5;
     --span_studio-color-2e2f42: #2e2f42;
@@ -28,7 +28,6 @@ body {
     list-style: none;
 }
 
-!============================================= ! MAIN-PAGE !============================================= !
 
 /*header main-page*/
 .header-main-page {
@@ -131,6 +130,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
+    gap: 45px;
 }
 
 .address:hover {
