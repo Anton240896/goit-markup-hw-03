@@ -44,6 +44,7 @@ img {
 .container-header {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 /*container*/
@@ -53,6 +54,7 @@ img {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: auto;
 
 }
 
@@ -157,8 +159,7 @@ address {
 
 .contacts {
     margin-left: 0;
-    gap: 40px;
-
+    gap: 40px-
 }
 
 
