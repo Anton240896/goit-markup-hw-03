@@ -295,7 +295,7 @@ address {
 
 .dreamteam_main_page {
     background-color: #FFFFFF;
-    width: calc((100%-72px)) /4;
+    width: calc((100% - 72px)) / 4;
 }
 
 .section_main_page {}
