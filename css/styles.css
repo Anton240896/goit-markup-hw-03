@@ -1,4 +1,4 @@
-/************************** MAIN-PAGE ***************************************/
+/************************** MAIN-PAGE ***************************/
 
 :root {
     --background-color-main_page-ffffff: #FFFFFF;
@@ -157,6 +157,7 @@ address {
 
 .contacts {
     margin-left: 0;
+    gap: 40px;
 
 }
 
