@@ -327,6 +327,12 @@ address {
 /************************** PORTFOLIO ***************************/
 
 /**************main*************/
+.menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+
 .section_portfolio {
     color: #FFFFFF;
     padding-top: 96px;
