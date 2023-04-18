@@ -59,6 +59,11 @@ img {
 
 }
 
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
 /*address*/
 .address_contacts {
     display: flex;
@@ -327,7 +332,7 @@ address {
 /**************main*************/
 .menu-list {
     display: flex;
-    gap: 24px;
+    gap: 40px;
 }
 
 
