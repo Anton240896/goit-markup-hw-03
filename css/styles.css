@@ -133,7 +133,7 @@ address {
 /*************** menu-item*************/
 .menu-list {
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 
 /*address*/
@@ -220,14 +220,6 @@ address {
     padding-bottom: 120px;
 }
 
-/*********** menu-list ******************/
-.menu-list {
-    display: flex;
-    gap: 24px;
-
-
-}
-
 
 .list-paragraph {
     width: calc((100% - 72px) / 4);
@@ -250,7 +242,6 @@ address {
 
 /*p_section #2*/
 .text-main_page {
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
