@@ -133,14 +133,6 @@ address {
     color: #404bbf;
 }
 
-/*************** menu-list*************/
-/*************** menu-img*************/
-/*************** menu-item*************/
-.menu-list {
-    display: flex;
-    gap: 24px;
-}
-
 /*address*/
 .address_contacts {
     font-style: normal;
@@ -225,6 +217,15 @@ address {
     padding-bottom: 120px;
 }
 
+/*************** menu-list*************/
+/*************** menu-img*************/
+/*************** menu-item*************/
+.section-second-list {
+    display: flex;
+    gap: 24px;
+}
+
+
 
 .list-paragraph {
     width: calc((100% - 72px) / 4);
@@ -273,6 +274,11 @@ address {
     margin-bottom: 72px;
 }
 
+.section-third-list {
+    display: flex;
+    gap: 24px;
+}
+
 .list-picture .portfolio_link {
     width: calc((100% - 48px) / 3);
 }
@@ -285,7 +291,7 @@ address {
 }
 
 
-.menu-list {
+.section-fourth-list {
     display: flex;
     gap: 24px;
 }
