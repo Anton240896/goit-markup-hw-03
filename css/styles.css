@@ -279,7 +279,7 @@ address {
     gap: 24px;
 }
 
-.list-picture .portfolio_link {
+.list-picture {
     width: calc((100% - 48px) / 3);
 }
 
