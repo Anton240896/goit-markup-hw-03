@@ -242,6 +242,7 @@ address {
 
 /*p_section #2*/
 .text-main_page {
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -326,7 +327,7 @@ address {
 /**************main*************/
 .menu-list {
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 
 
