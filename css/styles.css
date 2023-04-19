@@ -248,7 +248,6 @@ address {
 
 /*p_section #2*/
 .text-main_page {
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -279,7 +278,8 @@ address {
     gap: 24px;
 }
 
-.portfolio_link {
+/*list-picture*/
+.list-picture {
     width: calc((100% - 48px) / 3);
 }
 
@@ -405,7 +405,7 @@ button:focus {
 }
 
 
-.list-picture {
+.list-picture_portfolio {
     width: calc((100% - 48px) / 3);
 }
 
