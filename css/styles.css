@@ -19,7 +19,10 @@ body {
 
 ul {
     padding-left: 0;
+    margin: 0;
 }
+
+
 
 
 /*link*/
@@ -68,6 +71,10 @@ img {
     gap: 40px;
 }
 
+nav {
+    margin-right: auto;
+}
+
 /*address*/
 .address_contacts {
     display: flex;
@@ -89,9 +96,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
-    display: inline-block;
-    margin-bottom: 16px;
+
 }
 
 /*studio*/
@@ -104,10 +109,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.header-main-page {
-    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -126,6 +127,7 @@ address {
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 
 }
 
@@ -168,11 +170,12 @@ address {
 
 
 
-/************ SECTION 1 ************/
+/******************* SECTION 1 *****************/
 .section_main_page_title {
     background-color: var(--span_studio-color-2e2f42);
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0;
 
 }
 
@@ -184,7 +187,9 @@ address {
     color: #ffffff;
     text-align: center;
     max-width: 496px;
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
 }
 
 /*button(Main page)*/
@@ -203,6 +208,8 @@ address {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #ffffff;
+    margin: 0 auto;
+
 
 }
 
@@ -215,15 +222,15 @@ address {
     background-color: #404bbf;
 }
 
-/********** SECTION 2 **********/
+/***************** SECTION 2 ******************/
 .section_main_page {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-/*************** menu-list*************/
-/*************** menu-img*************/
-/*************** menu-item*************/
+/*********** menu-list***********/
+/*********** menu-img***********/
+/*********** menu-item***********/
 .section-second-list {
     display: flex;
     gap: 24px;
@@ -245,6 +252,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    margin-top: 0;
 
 
 }
@@ -256,7 +264,8 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    text-align: left;
+    margin: 0;
 }
 
 /*team*/
@@ -265,7 +274,12 @@ address {
 }
 
 
-/************ SECTION 3 ***********/
+/**************** SECTION 3 ***************/
+
+.section_main_page {
+    padding-top: 0;
+}
+
 /*h2 What are doing;
  Our team*/
 .list_main_page {
@@ -275,6 +289,7 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top: 0;
     margin-bottom: 72px;
 }
 
@@ -287,11 +302,15 @@ address {
     width: calc((100% - 48px) / 3);
 }
 
-/*********** SECTION 4 ************/
+/****************** SECTION 4 *****************/
 .section_team {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #F4F4FD;
+}
+
+.list_main_page {
+    margin-top: 0;
 }
 
 
@@ -313,7 +332,9 @@ address {
     border-radius: 0px 0px 4px 4px;
 }
 
-.section_main_page {}
+
+
+
 
 
 /************* FOOTER *************/
@@ -334,12 +355,20 @@ address {
     text-transform: uppercase;
 }
 
+.footer-paragraph {
+    font-size: 16px;
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 246px;
+    margin: 0 auto;
+}
 
 /*2 page*/
 
 /************************** PORTFOLIO ***************************/
 
-/**************main*************/
+/************** main *************/
 .menu-list {
     display: flex;
     gap: 40px;
@@ -453,10 +482,3 @@ button:focus {
 }
 
 /************* MAIN PAGE & PORTFOLIO **************/
-.footer-paragraph {
-    font-size: 16px;
-    color: #F4F4FD;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    max-width: 246px;
-}
