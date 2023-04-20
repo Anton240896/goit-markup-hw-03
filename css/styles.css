@@ -96,6 +96,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 0;
 
 }
 
@@ -223,7 +224,7 @@ address {
 }
 
 /***************** SECTION 2 ******************/
-.section_main_page {
+.section_main_page-second {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -260,7 +261,6 @@ address {
 
 /*p_section #2*/
 .text-main_page {
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
