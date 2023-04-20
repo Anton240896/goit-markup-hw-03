@@ -279,6 +279,7 @@ address {
 
 .section_main_page {
     padding-top: 0;
+    padding-bottom: 120px;
 }
 
 /*h2 What are doing;
@@ -365,6 +366,7 @@ address {
     text-transform: uppercase;
     margin-right: 0;
     margin-bottom: 16px;
+    display: inline-block;
 
 }
 
