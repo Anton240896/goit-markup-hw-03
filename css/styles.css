@@ -248,7 +248,7 @@ address {
 .hero_main_page {
     font-weight: 500;
     color: var(--span_studio-color-2e2f42);
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -264,7 +264,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
     margin: 0;
 }
 
@@ -326,6 +326,19 @@ address {
 
 }
 
+/*h-names*/
+.hero_main_page_dreamteam {
+    font-weight: 500;
+    color: var(--span_studio-color-2e2f42);
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+/*p-positions*/
 .text-main_page-dreamteam {
     font-size: 16px;
     line-height: 1.5;
